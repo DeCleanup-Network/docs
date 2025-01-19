@@ -1,0 +1,43 @@
+# Overview
+
+This system is based on giving users rewards for confirmed solo cleanup submissions.
+Also for creating and participating in Impact Circle - group cleanup.
+
+User can have next as rewards:
+
+- DCU Token - ERC20 to mint as reward in cleanup confirmn transaction.
+- NFT Dynamic Impact Product - soulboud token with dynamic traits.
+- NFT Cleanup - token for approved cleanups
+- POAP - as a reward for cleanup or IC (nice to have)
+
+NFT DIP is a smart contract to create new submission and approve submissions.
+User will mint the nft with metadata and traits. And laters community will confirm or reject the submission.
+
+Data type for DIP extends basic NFT schema:
+
+constant traits:
+
+```
+type: "dynamic impact product"
+impact: "environmental"
+category: "tokenized cleanups"
+```
+
+dynamic traits:
+
+```
+dcuSum: number # amount of DCU tokens earned by user
+impact: number # represent the impact lever by number
+title : string # label for impact: newbie, pro, hero
+```
+
+for each confirmed submission user DIP dynamic traits are updates and user can have diffent image for levels; For now there are 10 levels, but system has to be planned to expand on more levels;
+
+<Zoom>
+  <img src={'/levels.png'} alt={'levels'} />
+</Zoom>
+
+<nav className='flex items-center justify-end space-x-2'>
+  <ArrowRight />
+  <Link href='/overview/features'>next: Features</Link>
+</nav>
