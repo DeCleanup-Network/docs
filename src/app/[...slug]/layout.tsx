@@ -12,7 +12,7 @@ export default function SlugLayout({
       <AppSidebar />
       <div className='flex min-h-screen flex-col bg-background p-4'>
         <Header />
-        <div className='prose rounded-xl px-6 py-8 shadow-2xl shadow-secondary ring-1 ring-accent dark:prose-invert lg:prose-2xl'>
+        <div className='prose max-w-prose rounded-xl px-6 py-8 shadow-2xl shadow-secondary ring-1 ring-accent dark:prose-invert lg:prose-2xl'>
           {children}
         </div>
       </div>
