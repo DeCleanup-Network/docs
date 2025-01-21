@@ -40,7 +40,7 @@ The purpose of the DeCleanup Network is to:
 
 ## Features
 
-### Dynamic Rewards:
+### Rewards:
 
 - **DCU Token**: ERC20 token minted as a reward for confirmed cleanups.
 - **Dynamic Impact Products (dIPs)**: NFTs with evolving traits and levels.
