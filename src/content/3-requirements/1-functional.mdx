@@ -1,37 +1,37 @@
-# Functional requirements
+# Functional
 
-## contracts
+**Contracts**
 
-- Token for dcu submission reward, based on ERC20 so it is compatible with many other dApps. And also possible to use later to claim other tokens if needed; Totaly supply is nlimited, minted on demand only in reward tx. Later, total supply mited can be used to determine total supply for next $DCU token.
-- NFT DIP - Contract to mint soulbound NFT with dynamic traits. To store data based on NFT standard schema. Purpose is to show user's impact with dynamic traits. Transfer can be initiated on request, for example when user wants to migrate to another account.
-- NFT cleanup - contract to manage cleanups. A factory contract to deploy contract NFT. To mint dcu submission. Deploy one contract for solor subs and deploy new contract for group cleanup - IC; This is standard NFT to represent cleanup, so metadata is extended with: before/after photos - so not only the main image. Geotags and timestamp of photos. And other metadata schema can be used, like name, description, etc. o
-- DCU Rewards - contract to send rewards from. After user dcu submission confirmed - rewards should be distributed. This contract will have access role in other contracts and can mint. It will be triggered by tx from moderator/dao;
+- Token for DCU Submission Reward: ERC20 compatible, allowing use across other dApps. Unlimited total supply, minted on demand during reward transactions. Total minted supply can later determine the capped total supply for future $DCU tokens.
+- NFT Dynamic Impact Product (DIP): Soulbound NFT with dynamic traits to reflect user impact. Stores data using the NFT standard schema. Transfer can be initiated upon request (e.g., account migration).
+- NFT Cleanup Contract: Factory contract to manage cleanups. Deploys contracts for solo and group cleanups (Impact Circles). Metadata includes before/after photos, geotags, timestamps, and extended schemas (e.g., name, description).
+- DCU Rewards Contract: Distributes rewards after DCU submission is confirmed. Has access roles for minting and interacts with other contracts. Updates traits in DIP on each confirmed DCU submission, either on-chain (ERC7496) or through backend updates of metadata and CID.
 
-it is important to update traits in DIP on each dcu submission confirmed; To do we need to update them onchain if we use ERC7496 or it will be on backend by updating metadata and updated the cid on chain
+## Backend
 
-## backend
+**Tech Stack:**
 
-- ts express server with prisma schema
-- indexer to build leaderboard
-- single endpoint to add tx hash with dcu sub confirmation, which will trigger leader board builder
+- TypeScript Express server with Prisma schema.
+- Indexer to build leaderboard metrics.
+- Single endpoint to add transaction hashes for DCU submission confirmation, triggering the leaderboard builder.
 
-## webclient
+## Web Client
 
-react/nextjs + tailwind + shadcn
+**Tech Stack:**
 
-- landing page with common info and access to nav
-- header, footer
-- navigation
-- profile page, user's info + submission list
-- leader board - a table with all dcu profiles ordered and paginated 25 p page
-- new dcu submissioon form
-- dcu submissioon page
-- new ic form
-- ic page
-- approve list - page with protected access with all pending dcu subs. Have extra button to send tx
-- web3 wallet integration - user can use SIWE with popular wallets to sign in and auth.
-
-<nav className='flex items-center justify-end space-x-2'>
-  <ArrowRight />
-  <Link href='/requirements/non-functional'>next: Non-functional</Link>
-</nav>
+- React/Next.js + Tailwind CSS + shadcn.
+  **Features:**
+- Landing Page: Includes general information and navigation.
+- Header/Footer: Persistent components for navigation.
+- Profile Page: Displays user information and submission history.
+- Leaderboard: Paginated table (25 per page) displaying ranked DCU profiles.
+- New DCU Submission Form: For users to submit cleanup proof.
+- DCU Submission Page: Dedicated page for individual submissions.
+- New Impact Circle Form: Form to create a new Impact Circle.
+- Impact Circle Page: Manages and displays group cleanup activities.
+- Approval List: Restricted-access page for moderators to view and approve pending DCU submissions, including a button to send transactions.
+- Web3 Wallet Integration: Users authenticate via SIWE (Sign-In with Ethereum) using popular wallets.
+  <nav className='flex items-center justify-end space-x-2'>
+    <ArrowRight />
+    <Link href='/requirements/non-functional'>next: Non-functional</Link>
+  </nav>

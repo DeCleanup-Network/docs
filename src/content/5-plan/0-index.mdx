@@ -1,27 +1,115 @@
 # Plan
 
-For tasks and kanban we use github;
+Welcome to the DeCleanup Network GitHub and ODBoost! We're building a platform from the ground up to tokenize environmental cleanup efforts, leveraging blockchain technology and community collaboration. Your contributions will play a vital role in shaping this project.
 
-link to github project planning
+---
 
-There are 4 repositories:
+### **Key Information**
 
-- docs - this documentation react/nextjs + tailwind/shadcn
-- dapp - app for web client to let user sign in with ethereum and interact with the system. Has wallet integration and backend api
-- contracts - evm solidity code to implement main logic of the system.
-- backend - small serverless functions to index submissions chain data and update leaderboard data after new submission
+1. **Repositories**:
 
-There are 2 projects types:
+<a
+  href={'https://github.com/orgs/DeCleanup-Network/projects/5/views/3'}
+  target='_blank'
+  rel='noopener noreferrer'
+>
+  {'github project'}
+</a>
 
-- plan - top level epics and roadmap. Also place for new ideas.
-- sprint - low level issues for tech works;
+- **docs**: Central hub for documentation, requirements, specifications and contributor guidelines.
+- **contracts**: Development of blockchain-based PoI, rewards, and Impact Circle systems.
+- **backend**: Server-side logic and API handling.
+- **dapp**: web client app
 
-both projects are based on template and should be created for each year quearter
+2. **Tech Stack**:
 
-Below is description of idea lifecycle:
+#### **Blockchain**
 
-- add idea to plan project with status 'idea' --> team can pick it up to shape
-- shaping -> requirements -> specs & ETA
-- last step is to move to backlog
+- **EVM-based Chains**: Ethereum, Polygon, Optimism, Arbitrum, etc.
+- **Smart Contracts**: **Solidity**, hardhat, foundry. Following ERC standards and OSS implementations, like open zeppelin contracts.
+- **Features**: Support for dynamic asset traits, marketplace functionality for tokenized assets, staking mechanisms for reward distribution, and advanced referral tracking
 
-Backlog is a place for epics after shaping.
+#### **Frontend**
+
+- Frameworks: **React**, **Next.js**.
+- Styling: **Tailwind CSS**, **shadcn**.
+- Web3 Libraries: **RainbowKit**, **wagmi**, and **viem** for wallet integration and blockchain interactions.
+
+#### **Backend**
+
+- **API Layer**: Developed with **Express.js**
+- **Data Storage**: Off-chain data stored using **IPFS** and **Filecoin** to ensure decentralized, secure storage.
+
+3. **Timezone and Availability**:
+   - We operate in **Bangkok time (GMT+7)** and may review contributions outside typical hackathon working hours. Please don’t worry about delayed issue responses or PR reviews—we’re actively monitoring but may take a bit longer due to time differences.
+
+---
+
+### **How to Start Contributing**
+
+**Contribution Areas**:
+
+- **Smart Contracts**:
+  - Start designing contracts for Impact Circle creation, PoI submission, and reward distribution.
+  - Share and discuss contract architectures in GitHub Discussions.
+- **Backend**:
+  - Set up a framework for APIs and database interactions.
+  - Plan and implement database schemas for tracking user activity, submissions, and rewards.
+- **Frontend**:
+  - Develop core UI components like dashboards, campaign creation forms, and submission pages.
+  - Contribute to the UX/UI design for user flows and gamification features.
+- **Documentation**:
+  - Help draft contributor guides, API documentation, and issue templates.
+
+**How to Submit Contributions**:
+
+- Create a branch for your feature.
+- Submit a pull request (PR) with clear descriptions and link it to any relevant issues.
+- If unsure about an approach, start with a draft PR or share your idea in Discussions.
+
+## We have issues open on github projects
+
+### **OD-BOOST Hackathon-Specific Goals**
+
+0. Help to bootstrap. Contribute to plan and structure;
+
+1. **MVP Development**:
+
+   - Develop core features:
+     - Wallet connection and user authentication.
+     - Impact Circle creation and management.
+     - Basic PoI submission and verification flows.
+   - Set up GitHub workflows for collaboration, including issue tracking and CI/CD pipelines.
+
+2. **Innovate and Collaborate**:
+   - Contribute ideas for gamification, decentralized verification, and token rewards.
+   - Work on modular, scalable solutions to support future expansion.
+
+---
+
+### **Guidelines for Collaboration**
+
+- **Communication**:
+  - Use GitHub Discussions for questions, ideas, or feedback.
+  - Label issues and PRs clearly (e.g., `frontend`, `docs`, `bugfix`).
+- **Best Practices**:
+  - Follow coding standards outlined in the `CONTRIBUTING.md` file (to be drafted).
+  - Add comments to your code, especially for complex logic.
+  - Submit focused PRs addressing a single issue or feature at a time.
+
+---
+
+### **Project Management and Non-Dev Contributions**
+
+If you’re interested in project management or non-development contributions, we welcome help in the following areas:
+
+- **GitHub Organization**:
+  - Structuring repositories and maintaining issue tracking.
+  - Creating and updating project milestones and roadmaps.
+- **Design and Planning**:
+  - Drafting workflows, wireframes, and UX flows for platform features.
+  - Contributing to high-level project strategy and organization.
+- **Documentation**:
+  - Writing user guides, onboarding materials, and technical documentation.
+
+For non-dev contributors, please focus on creating clarity and structure to support the development process. Contact us via GitHub Discussions or an open issue to coordinate.
