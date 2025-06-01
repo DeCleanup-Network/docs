@@ -7,13 +7,13 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "bunx next lint",
-    "format": "bunx prettier --write ."
+    "lint": "npx next lint",
+    "format": "npx prettier --write ."
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
-      "bunx next lint --file",
-      "bunx prettier --check"
+      "npx next lint --file",
+      "npx prettier --check"
     ]
   },
   "dependencies": {
