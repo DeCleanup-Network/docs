@@ -21,18 +21,23 @@ The purpose of the DeCleanup Network is to:
 ## Web3 Pillars Supporting the Solution
 
 - **Security**:
+
   - Protects cleanup data and transactions with cryptographic proofs, ensuring users' submissions and rewards remain tamper-proof.
 
 - **Trustless Operations**:
+
   - Allows participants to submit and validate cleanup proof without intermediaries, fostering transparency and efficiency.
 
 - **Transparency**:
+
   - Immutable blockchain records provide public visibility into the cleanup activities and their impact.
 
 - **Scalability**:
+
   - Modular architecture ensures seamless support for a growing user base and expanding initiatives.
 
 - **Interoperability**:
+
   - Enables the platform to connect with various blockchain ecosystems, ensuring global accessibility and usability.
 
 - **Decentralization**:
