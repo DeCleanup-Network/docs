@@ -1,33 +1,47 @@
-# Overview
+# Overview: DeCleanup Reward & Verification Ecosystem
 
-This system is based on giving users rewards for confirmed solo cleanup submissions.
-Also for creating and participating in Impact Circle - group cleanup.
+DeCleanup dApp is a decentralized environmental impact platform that tokenizes individuals' and groups' for verified impact of cleanups. It combines proof-of-impact submission, reward mechanisms, and tokenized impact recognition to encourage active participation in sustainability efforts.
 
-User can have next as rewards:
+The system in V2.1 supports solo cleanups and in V2.2 Impact Circles (ICs) — coordinated group cleanups.
 
-- DCU Token - ERC20 to mint as reward in cleanup confirmn transaction.
-- NFT Dynamic Impact Product - soulboud token with dynamic traits.
-- NFT Cleanup - token for approved cleanups
-- POAP - as a reward for cleanup or IC (nice to have)
+The incentives structure includes:
 
-NFT DIP is a smart contract to create new submission and approve submissions.
-User will mint the nft with metadata and traits. And laters community will confirm or reject the submission.
+## Reward Mechanisms
+DeCleanup Impact Product (NFT DIP) – A soulbound NFT with dynamic metadata and level progression, representing the user's environmental impact.
+$DCU Token – An ERC-20 token earned for each approved cleanup submission. Users accumulate these off-chain (as DCU Points) until the Token Generation Event (TGE), when they can be claimed as $DCU tokens.
 
-Data type for DIP extends basic NFT schema:
+## How It Works
+Submission: Users clean a location and submit proof through the dApp (before/after images with geotags and timestamps).
+Verification: In Phase 1, the DeCleanup team manually reviews all Proof of Impact (PoI) submissions. In later phases, community-led validation with a staking system will decentralize this process.
+## Reward Claiming: Once a submission is approved, users can mint or upgrade their NFT DIP and receive $DCU rewards.
 
-constant traits:
+## Dynamic Impact Product (DIP) NFT: Core of the System
+Each Dynamic Impact Product (DIP) is a smart contract–based NFT representing a user’s cleanup history and impact level. The DIP is automatically updated with each verified cleanup, making it a living digital record of environmental contributions.
 
-- type: "dynamic impact product"
-- impact: "environmental"
-- category: "tokenized cleanups"
+**Constant Traits:**
 
-dynamic traits:
+type: "Dynamic Impact Product"
+impact: "Environmental"
+category: "Tokenized Cleanups"
 
-- dcuSum: number # amount of DCU tokens earned by user
-- impact: number # represent the impact lever by number
-- title : string # label for impact: newbie, pro, hero
+**Dynamic Traits:**
 
-for each confirmed submission user DIP dynamic traits are updates and user can have diffent image for levels; For now there are 10 levels, but system has to be planned to expand on more levels;
+dcuSum: Total $DCU earned by the user
+impact: Numeric value measuring overall contribution
+title: Impact tier (e.g., Newbie, Pro, Hero, Guardian)
+Levels (Current Structure):
+
+Level	Cleanups Required	Title	Impact Value
+1	1	Newbie	1
+2	2	Newbie	2
+3	3	Newbie	3
+4	4	Pro	4
+5	5	Pro	5
+6	6	Pro	6
+7	7	Hero	7
+8	8	Hero	8
+9	9	Hero	9
+10	10	Guardian	10
 
 <Zoom>
   <img src={'levels.png'} alt={'level'} />
