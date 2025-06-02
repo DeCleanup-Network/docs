@@ -42,17 +42,17 @@ Once verified:
 
 Each DIP NFT acts as a living digital record of the user’s cleanup activity.
 
-### Constant Traits
-```json
-{
-  "type": "Dynamic Impact Product",
-  "impact": "Environmental",
-  "category": "Tokenized Cleanups"
-{
-  "dcuSum": <Total DCU earned>,
-  "impact": <Numeric contribution value>,
-  "title": "<Impact tier (e.g., Newbie, Pro, Hero)>"
-}
+constant_traits:
+  type: "dynamic impact product"
+  impact: "environmental"
+  category: "tokenized cleanups"
+
+dynamic_traits:
+  dcuSum: number    # amount of DCU tokens earned by user
+  impact: number    # represents the impact level as a number
+  title: string     # label for impact tier: newbie, pro, hero
+
+
 | Level | Cleanups Required | Title    | Impact Value |
 | ----- | ----------------- | -------- | ------------ |
 | 1     | 1                 | Newbie   | 1            |
