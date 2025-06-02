@@ -1,47 +1,70 @@
-# Overview: DeCleanup Reward & Verification Ecosystem
+# Intro to Reward Ecosystem
 
-DeCleanup dApp is a decentralized environmental impact platform that tokenizes individuals' and groups' for verified impact of cleanups. It combines proof-of-impact submission, reward mechanisms, and tokenized impact recognition to encourage active participation in sustainability efforts.
+**DeCleanup dApp** is a decentralized environmental impact platform that tokenizes individuals' and groups' verified cleanup efforts. It combines **proof-of-impact submission**, **reward mechanisms**, and **tokenized recognition** to encourage active participation in sustainability.
 
-The system in V2.1 supports solo cleanups and in V2.2 Impact Circles (ICs) — coordinated group cleanups.
+The current system supports:
+- Solo Cleanups (V2.1)
+- Impact Circles (ICs) – coordinated group cleanups (V2.2)
 
-The incentives structure includes:
+---
 
 ## Reward Mechanisms
-DeCleanup Impact Product (NFT DIP) – A soulbound NFT with dynamic metadata and level progression, representing the user's environmental impact.
-$DCU Token – An ERC-20 token earned for each approved cleanup submission. Users accumulate these off-chain (as DCU Points) until the Token Generation Event (TGE), when they can be claimed as $DCU tokens.
+
+- **DeCleanup Impact Product (NFT DIP)**  
+  A soulbound NFT with dynamic metadata and level progression, representing each user’s environmental impact.
+
+- **$DCU Token (ERC-20)**  
+  Earned for each approved cleanup submission.  
+  Accumulated off-chain as `DCU Points` until the Token Generation Event (TGE), when users can claim them as $DCU tokens.
+
+---
 
 ## How It Works
-Submission: Users clean a location and submit proof through the dApp (before/after images with geotags and timestamps).
-Verification: In Phase 1, the DeCleanup team manually reviews all Proof of Impact (PoI) submissions. In later phases, community-led validation with a staking system will decentralize this process.
-## Reward Claiming: Once a submission is approved, users can mint or upgrade their NFT DIP and receive $DCU rewards.
 
-## Dynamic Impact Product (DIP) NFT: Core of the System
-Each Dynamic Impact Product (DIP) is a smart contract–based NFT representing a user’s cleanup history and impact level. The DIP is automatically updated with each verified cleanup, making it a living digital record of environmental contributions.
+### 1. Submission
+Users clean a location and submit before/after images via the dApp, including:
+- Geotags  
+- Timestamps  
+- Waste volume (optional)
 
-**Constant Traits:**
+### 2. Verification
+- **Phase 1**: Manual verification by the DeCleanup team.
+- **Future Phases**: Community-based validation system using staked voting for decentralization.
 
-type: "Dynamic Impact Product"
-impact: "Environmental"
-category: "Tokenized Cleanups"
+### 3. Reward Claiming
+Once verified:
+- Users mint or upgrade their NFT DIP.
+- Receive DCU Points tied to their contribution.
 
-**Dynamic Traits:**
+---
 
-dcuSum: Total $DCU earned by the user
-impact: Numeric value measuring overall contribution
-title: Impact tier (e.g., Newbie, Pro, Hero, Guardian)
-Levels (Current Structure):
+## Dynamic Impact Product (DIP) NFT
 
-Level	Cleanups Required	Title	Impact Value
-1	1	Newbie	1
-2	2	Newbie	2
-3	3	Newbie	3
-4	4	Pro	4
-5	5	Pro	5
-6	6	Pro	6
-7	7	Hero	7
-8	8	Hero	8
-9	9	Hero	9
-10	10	Guardian	10
+Each DIP NFT acts as a living digital record of the user’s cleanup activity.
+
+### Constant Traits
+```json
+{
+  "type": "Dynamic Impact Product",
+  "impact": "Environmental",
+  "category": "Tokenized Cleanups"
+{
+  "dcuSum": <Total DCU earned>,
+  "impact": <Numeric contribution value>,
+  "title": "<Impact tier (e.g., Newbie, Pro, Hero)>"
+}
+| Level | Cleanups Required | Title    | Impact Value |
+| ----- | ----------------- | -------- | ------------ |
+| 1     | 1                 | Newbie   | 1            |
+| 2     | 2                 | Newbie   | 2            |
+| 3     | 3                 | Newbie   | 3            |
+| 4     | 4                 | Pro      | 4            |
+| 5     | 5                 | Pro      | 5            |
+| 6     | 6                 | Pro      | 6            |
+| 7     | 7                 | Hero     | 7            |
+| 8     | 8                 | Hero     | 8            |
+| 9     | 9                 | Hero     | 9            |
+| 10    | 10                | Guardian | 10           |
 
 <Zoom>
   <img src={'levels.png'} alt={'level'} />
