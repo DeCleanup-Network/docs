@@ -1,0 +1,34 @@
+# Web3 Pillars
+
+## Decentralization
+- Removes single points of failure
+- Guarantees uptime for key functions
+- Ensures data permanence on-chain
+
+---
+
+## Trustless Operations
+- Wallet login, no emails or KYC
+- Smart contracts verify all submissions and rewards
+- Secure campaign creation and reward distribution
+
+---
+
+## Interoperability
+- Works across EVM chains
+- Follows ERC standards (NFTs, tokens)
+- Integrates with IPFS, WalletConnect, ENS
+
+---
+
+## Scalability
+- Modular smart contracts for campaign logic
+- Handles global events and high user volume
+- Supports campaign expansion and third-party integration
+
+---
+
+## Security
+- Geotag & timestamp validation
+- Cryptographic proofs and decentralized storage (e.g. IPFS)
+- Minimal attack surface via contract design and wallet auth
