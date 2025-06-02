@@ -6,14 +6,5 @@ const config: NextConfig = {
   transpilePackages: ['next-mdx-remote'],
   output: 'export',
   images: { unoptimized: true },
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/introduction',
-        permanent: true,
-      },
-    ]
-  },
 }
 export default config
