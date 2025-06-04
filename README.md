@@ -1,8 +1,19 @@
-# DeCleanup Network Litepaper
+# 📚 DeCleanup Network Documentation
 
-## Introduction
+Welcome to the official documentation repository for the **DeCleanup Network** – a Web3-powered platform that incentivizes real-world environmental cleanups through proof-of-impact and token rewards.
 
-DeCleanup Network is a global initiative dedicated to fostering environmental cleanups through community-driven efforts and innovative blockchain technology. The network incentivizes real-world impact by tokenizing cleanup activities and providing measurable rewards. Our mission is to expand global participation in environmental actions while creating a transparent, scalable, and eco-conscious community.
+This repository contains all technical, conceptual, and operational documentation for the DeCleanup dApp ecosystem.
+
+---
+
+## 🔍 Overview
+
+DeCleanup leverages blockchain technology to:
+- Incentivize cleanup campaigns through tokenized rewards
+- Enable transparent proof-of-impact submissions
+- Scale real-world action via community engagement and gamification
+
+We’re building a global movement to make environmental impact measurable, verifiable, and rewarding.
 
 ## Purpose
 
