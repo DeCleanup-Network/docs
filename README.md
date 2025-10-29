@@ -217,16 +217,16 @@ Future multichain (V2.3+): Optimism, Arbitrum, Base, Polygon zkEVM
 🔜 Enhanced impact data collection 
 🔜 Hypercerts integration 
 
-### **V2.2 (Q2 2025)**
+### **V2.2 (Q2 2026)**
 🔜 `$DCU` launch on Celo  
 🔜 Community verification  
 🔜 Impact Circles + Governance  
 
-### **V2.3 (Q3–Q4 2025)**
+### **V2.3 (Q3–Q4 2026)**
 - POAPs for Impact Circles  
 - Expanded Impact Product tiers  
 - Ambassador program  
 - Multichain deployment  
 
-### **V3.0 (2026)**
+### **V3.0 (2027)**
 Plans to be published  
