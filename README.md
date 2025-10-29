@@ -1,150 +1,232 @@
-# 📚 DeCleanup Network Documentation
-
-Welcome to the official documentation repository for the **DeCleanup Network** – a Web3-powered platform that incentivizes real-world environmental cleanups through proof-of-impact and token rewards.
-
-This repository contains all technical, conceptual, and operational documentation for the DeCleanup dApp ecosystem.
+# 🌍 DeCleanup Network Playbook  
+**Turn Your Cleanups Into Verified Impact**
 
 ---
 
-## 🔍 Overview
+### 🔗 Useful Links
+- **Website:** [https://decleanup.net](https://decleanup.net)  
+- **dApp V1 (test MVP on Arbitrum):** [dapp.decleanup.net](https://dapp.decleanup.net)  
+- **X Profile:** [x.com/decleanupnet](https://x.com/decleanupnet)  
+- **Telegram Community:** [t.me/DecentralizedCleanup](https://t.me/DecentralizedCleanup)  
+- **Gardens Community:** [gardens.fund](https://app.gardens.fund/gardens/42161/0x912ce59144191c1204e64559fe8253a0e49e6548/0x5396c94ea47916f5661734fee769d0d7cc8b14c6)  
+- **GitHub:** [github.com/DeCleanup-Network](https://github.com/DeCleanup-Network)  
+- **Publications:** [paragraph.xyz/@decleanupnet](https://paragraph.xyz/@decleanupnet)  
+- **Donate on Giveth:** [giveth.io/project/decentralized-cleanup-network](https://giveth.io/project/decentralized-cleanup-network)
+- **Grants and Impact:** [gap.karmahq.xyz/project/decentralized-cleanup-network](https://gap.karmahq.xyz/project/decentralized-cleanup-network)  
 
-DeCleanup leverages blockchain technology to:
-- Incentivize cleanup campaigns through tokenized rewards
-- Enable transparent proof-of-impact submissions
-- Scale real-world action via community engagement and gamification
+---
 
-We’re building a global movement to make environmental impact measurable, verifiable, and rewarding.
+## 🌟 Quick Overview
 
-## Purpose
+### What is DeCleanup?
+A **Web3 platform that rewards you for cleaning up the environment.**  
+Take before/after photos, get verified, earn `$DCU` tokens, and grow your **Impact Product** from level to level.
 
-The purpose of the DeCleanup Network is to:
+### Why It Matters
+Traditional volunteering lacks transparent reward and recognition systems.  
+DeCleanup creates **permanent, blockchain-verified proof** of your environmental contributions while growing a **global impact community.**
 
-- Create a scalable and transparent system that encourages consistent environmental cleanup action.
-- Leverage blockchain technology to verify, tokenize, and incentivize real-world impact.
+### What You’ll Get
+- 🪙 10 `$DCU` per verified cleanup  
+- 🧩 Dynamic Impact Product that levels up  
+- 🎁 Bonus rewards for consistency and referrals  
+- 🔒 Future staking opportunities  
+- 🪶 Permanent Hypercerts for every 10 cleanups  
 
-## Concepts
+---
 
-- **Proof of Impact (PoI)**: Verified evidence of cleanup activities through geotagged photos or videos + decentralized community validation.
-- **Dynamic Impact Products (dIPs)**: Tokenized RWI in the form of on-chain commodities utilizing NFT technology with traits that evolve based on user contributions and milestones.
-- **$DCU Utility Token**: Utility token used for rewards, staking, and incentivized actions.
-- **Impact Circles**: Collaborative group cleanups that boost coordination and amplify collective environmental impact.
+## 👥 Who This Guide Is For
+| Role | Description |
+|------|--------------|
+| **Individual Cleaners** | Want to earn recognition for personal environmental work |
+| **Community Organizers** | Motivate cleanup participants using gamification |
+| **Environmental Organizations** | NGOs, schools, local groups seeking measurable data |
+| **ReFi Communities** | Web3 users focused on regenerative finance |
+| **Corporate Partners** | Companies seeking verified ESG data and engagement |
 
-## Web3 Pillars Supporting the Solution
+**Prerequisites**
+- Smartphone with camera + GPS  
+- Internet access  
+- Willingness to learn simple Web3 tools  
 
-- **Security**:
-  - Protects cleanup data and transactions with cryptographic proofs, ensuring users' submissions and rewards remain tamper-proof.
+---
 
-- **Trustless Operations**:
-  - Allows participants to submit and validate cleanup proof without intermediaries, fostering transparency and efficiency.
+## 🎯 Getting Started
 
-- **Transparency**:
-  - Immutable blockchain records provide public visibility into the cleanup activities and their impact.
+### Phase 1: Set Up Your Wallet (15 min)
+Your Web3 wallet is your digital identity — it stores Impact Products and `$DCU`.
 
-- **Scalability**:
-  - Modular architecture ensures seamless support for a growing user base and expanding initiatives.
+#### 🧰 Steps
+1. **Install MetaMask** from [metamask.io](https://metamask.io)  
+2. **Create new wallet** → Write down recovery phrase  
+3. **Secure it** (never share seed phrase)  
+4. **Add gas fees** (e.g., 1–5 USD worth of CELO)  
 
-- **Interoperability**:
-  - Enables the platform to connect with various blockchain ecosystems, ensuring global accessibility and usability.
+Alternative wallets:  
+- [WalletConnect](https://walletconnect.com)  
+- [Coinbase Wallet](https://www.coinbase.com/wallet)  
 
-- **Decentralization**:
-  - Empowers communities by removing single points of failure, ensuring continuous availability, and supporting multiple languages.
+---
 
-## Features
+### Phase 2: Join the Community (5 min)
+- Join **[Telegram](https://t.me/DecentralizedCleanup)**  
+- Visit **[dApp](https://dapp.decleanup.net)** - currently live dApp V1 with simplified submission and verification system, for testing purposes, note that all features mentioned below will be available in dApp V2 and higher.
+- Connect wallet → Explore your dashboard  
 
-### Rewards:
+**Dashboard metrics**
+- Impact Value  
+- Level (Newbie → Guardian)  
+- `$DCU` Balance  
+- Streak Counter  
+- Referral Link  
 
-- **DCU Token**: ERC20 token minted as a reward for confirmed cleanups.
-- **Dynamic Impact Products (dIPs)**: NFTs with evolving traits and levels.
-- **POAP**: Optional participation rewards for cleanups and Impact Circles.
+---
 
-#### Data type for dIP extends basic NFT schema:
+## 🧹 How to Submit Your First Cleanup
 
-- **Constant traits**:
-  - Type: "dynamic impact product"
-  - Impact: "environmental"
-  - Category: "tokenized cleanups"
-- **Dynamic traits**:
-  - dcuSum: number # amount of DCU tokens earned by user
-  - Impact: number # represent the impact lever by number
-  - Title : string # label for impact: newbie, pro, hero
+### Preparation
+1. **Enable GPS + timestamps**  
+2. Choose a location (park, beach, street, forest, etc.)  
+3. Bring: bags, gloves, grabber tool, water  
 
-Each confirmed submission updates the dIP's dynamic traits. Visual traits such as images evolve across 10 levels, with a planned system for expanding beyond these levels to accommodate more milestones.
+### Documentation
+#### 📸 Before Photos
+- 2–3 clear shots with visible landmarks  
+- Include geotags  
+- Multiple angles  
 
-## User Capabilities
+#### 🧺 Cleanup
+- Pick up visible waste  
 
-- Submit proof of cleanup.
-- View leaderboard and track progress.
-- Create and manage Impact Circles.
-- Invite others to join Impact Circles.
-- Refer new users to the DCU ecosystem.
-- Confirm DCU submissions (for users with access).
+#### ✅ After Photos
+- Same position as before  
+- Show cleaned area + filled bags  
 
-## System Capabilities
+### Submission
+1. Go to **[dapp.decleanup.net](https://dapp.decleanup.net)** - currently live dApp V1 with simplified submission and verification system, for testing purposes, note that all features mentioned below will be available in dApp V2 and higher.
+2. Click **Submit Cleanup**  
+3. Upload before/after photos (≤10MB each)  
+4. Optionally complete **Impact Form** (+2 `$DCU`)  
+5. Submit & pay small gas fee  
 
-- Accept user DCU submissions in NFT mint format.
-- Index on-chain data to build and maintain leaderboard metrics.
+---
 
-## General Process in DCU
+## 🪩 Verification & Claiming (2–24 hrs)
+**Verification checks**
+- GPS + timestamps match  
+- Photos authentic & clear  
+- No duplicates  
 
-1. **Connect Wallet**: Users must connect their blockchain wallet to the platform to track their activities and rewards on the dashboard.
-2. **Submit Proof of Impact (PoI)**: Click the "Tokenize Your Cleanup Impact" button and upload before and after photos showing the cleanup area and waste collected. Ensure geotags and timestamps are embedded in the image metadata.
-3. **Verification**: Submitted proof is sent to the Verification Page, where verifiers evaluate the submission for authenticity and impact. It takes three votes initially to approve or reject a submission. As the platform scales, this may increase to up to ten votes.
-4. **Get Dynamic Impact Product (dIP)**: Once verified, users receive a dIP of a certain level with specific Impact Value (IV) and DCU Points. These grow with each cleanup submission and level gained.
+**Claim Steps**
+1. Get verified → “Claim Next Level” unlocks  
+2. Pay gas fee to mint/upgrade NFT  
+3. Receive 10 `$DCU` (+ bonuses)  
+4. Check progress on dashboard  
 
-## Impact Circles
+**Levels**
+| Level | Cleanups | Title |
+|--------|-----------|--------|
+| 1–3 | Newbie |
+| 4–6 | Pro |
+| 7–9 | Hero |
+| 10+ | Guardian |
 
-Collaborative cleanup campaigns where multiple users contribute to a shared initiative. Impact Circles are managed by a leader and allow for larger-scale environmental impact.
+---
 
-### Features
+## 💎 Maximizing Your Earnings
 
-- Leaders organize and manage Impact Circles.
-- Participants contribute cleanup efforts and share rewards proportionally.
-- Amplifies the scale and visibility of environmental impact.
+| Bonus Type | Reward | Details |
+|-------------|---------|---------|
+| **Streak Bonus** | +3 `$DCU` | Weekly cleanups maintain streak |
+| **Referral Bonus** | +2 `$DCU` | When referral completes 1st cleanup |
+| **Impact Form** | +2 `$DCU` | Optional form for extra data |
+| **Hypercert Milestone** | +5 `$DCU` | Every 10th cleanup |
 
-## Requirements
+Example month:  
+→ 4 cleanups + streaks + forms + 2 referrals + Hypercert = **69 `$DCU`**
 
-### Functional Requirements
+---
 
-**Contracts**
+## 🎮 Gamification & Community
 
-- **Token for DCU Submission Reward**: ERC20 compatible, allowing use across other dApps. Unlimited total supply, minted on demand during reward transactions. Total minted supply can later determine the capped total supply for future $DCU tokens.
-- **NFT Dynamic Impact Product (DIP)**: Soulbound NFT with dynamic traits to reflect user impact. Stores data using the NFT standard schema. Transfer can be initiated upon request (e.g., account migration).
-- **NFT Cleanup Contract**: Factory contract to manage cleanups. Deploys contracts for solo and group cleanups (Impact Circles). Metadata includes before/after photos, geotags, timestamps, and extended schemas (e.g., name, description).
-- **DCU Rewards Contract**: Distributes rewards after DCU submission is confirmed. Has access roles for minting and interacts with other contracts. Updates traits in DIP on each confirmed DCU submission, either on-chain (ERC7496) or through backend updates of metadata and CID.
+### Leaderboard
+- Total `$DCU` earned  
+- Verified cleanups  
+- Streak length  
+- Referrals  
+- Hypercerts  
 
-### Backend
+### Coming Soon (V2.2)
+**Impact Circles**
+- Group cleanup goals
+- Participants registration  
+- Shared reward pools  
+- Proof of Attendance NFTs (POAPs)  
 
-**Tech Stack**:
+---
 
-- TypeScript Express server with Prisma schema.
-- Indexer to build leaderboard metrics.
-- Single endpoint to add transaction hashes for DCU submission confirmation, triggering the leaderboard builder.
+## 💰 Understanding `$DCU` Token
 
-### Web Client
+### Overview
+Non-tradable **governance + reputation token**  
+- ✅ Earn, stake, and vote  
+- ❌ Not tradable or sellable  
 
-**Tech Stack**:
+### Ways to Earn
+| Activity | Reward | Notes |
+|-----------|---------|-------|
+| Verified Cleanup | 10 `$DCU` | Base |
+| Streak Bonus | +3 `$DCU` | Weekly activity |
+| Impact Data Form | +2 `$DCU` | Optional |
+| Referral | +2 `$DCU` | 1st cleanup only |
+| Verification (V2.2+) | +1 `$DCU` | For verifiers |
+| Hypercert Milestone | +5 `$DCU` | Every 10 cleanups |
 
-- React/Next.js + Tailwind CSS + shadcn.
+### Utility
+- Stake for verifier or governance rights  
+- Participate in Gardens DAO  
+- Future staking on **Regen Bazaar** to earn `$REBAZ`  
 
-**Features**:
+---
 
-- **Landing Page**: Includes general information and navigation.
-- **Header/Footer**: Persistent components for navigation.
-- **Profile Page**: Displays user information and submission history.
-- **Leaderboard**: Paginated table (25 per page) displaying ranked DCU profiles.
-- **New DCU Submission Form**: For users to submit cleanup proof.
-- **DCU Submission Page**: Dedicated page for individual submissions.
-- **New Impact Circle Form**: Form to create a new Impact Circle.
-- **Impact Circle Page**: Manages and displays group cleanup activities.
-- **Approval List**: Restricted-access page for moderators to view and approve pending DCU submissions, including a button to send transactions.
-- **Web3 Wallet Integration**: Users authenticate via SIWE (Sign-In with Ethereum) using popular wallets.
+## 🏢 For Organizations & Sponsors
 
-### Non-Functional Requirements
+### Equipment Reimbursement
+- Submit cleanup equipment receipts  
+- Verified users reimbursed in stablecoins  
+- $25–$100 per request  
+- Requires community verification (3+ votes or 100 `$DCU` weight)
 
-- **Good Uptime**: Ensure system availability for uninterrupted user access.
-- **Bug Reporting System**: Provide a clear mechanism for users to report issues.
-- **Logging**: Implement robust logging for debugging and tracking activities.
-- **Health Checks**: Regular system health checks to monitor performance.
-- **Maintainability**: Write modular and clean code to ease updates and improvements.
-- **Quality Assurance (QA)**: Comprehensive testing to ensure reliability and usability.
-- **CI/CD**: Continuous integration and delivery pipelines to streamline deployment.
+---
+
+## Blockchain Details
+- **Network:** Celo (carbon-negative, mobile-first)  
+- **Contracts:**  
+  - Impact Products → ERC-721  
+  - Hypercerts → ERC-1155  
+  - `$DCU` → Governance token  
+
+Future multichain (V2.3+): Optimism, Arbitrum, Base, Polygon zkEVM  
+
+---
+
+## 📈 Roadmap
+
+### **V2.1 (Q4 2025)**
+🔜 Dashboard, leaderboard, streaks, referrals
+🔜 Enhanced impact data collection 
+🔜 Hypercerts integration 
+
+### **V2.2 (Q2 2025)**
+🔜 `$DCU` launch on Celo  
+🔜 Community verification  
+🔜 Impact Circles + Governance  
+
+### **V2.3 (Q3–Q4 2025)**
+- POAPs for Impact Circles  
+- Expanded Impact Product tiers  
+- Ambassador program  
+- Multichain deployment  
+
+### **V3.0 (2026)**
+Plans to be published  
