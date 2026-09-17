@@ -1,3 +1,5 @@
+> [!WARNING]
+> **Archived — September 2026.** This is a V1 repository superseded by the V2 implementation in [decleanup-main-celo](https://github.com/DeCleanup-Network/decleanup-main-celo). Archived to preserve fork history. Nothing has been deleted. See the [org profile](https://github.com/DeCleanup-Network) for the current architecture.
 # 🌍 DeCleanup Network Playbook  
 **Turn Your Cleanups Into Verified Impact**
 
